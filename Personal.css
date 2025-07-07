@@ -1,0 +1,110 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Libre Baskerville", serif;
+    color: #393E46;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 300px;
+    box-shadow: 0 1px 8px #ddd;
+}
+
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left h2{
+    font-size: 3rem;
+}
+
+.right{
+    width: 350px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pad{
+    padding: 20px 300px;
+    gap: 10px;
+}
+
+.block{
+    flex-basis: 100%;
+}
+
+.about ul li{
+    list-style-position: inside;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    border: #D7D7D7 solid 1px;
+    border-radius: 10px;
+}
+.container{
+    padding: 15px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.title-card{
+    font-size: 1.5rem;
+}
+
+.space{
+    padding-bottom: 5px;
+}
+
+button{
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #273F4F;
+    color: #eee;
+    border: none;
+}
+
+.contact-text{
+    padding: 10px 0px;
+}
+
+.icon{
+    height: 25px;
+}
+
+.contact li{
+    list-style: none;
+    display: inline-block;
+}
